@@ -46,3 +46,8 @@ variable "tfe_workspace_name" {
   type        = string
   description = "(Required) Workspace name for web app to talk to SaaS platform."
 }
+
+variable "playbook_repository" {
+  type        = string
+  description = "(Required) Repository name for web app to talk to SaaS platform."
+}
